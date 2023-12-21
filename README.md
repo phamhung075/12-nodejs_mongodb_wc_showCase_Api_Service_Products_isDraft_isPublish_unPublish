@@ -105,7 +105,7 @@ authorization: [ACCESS_TOKEN]
 ``` 
 @url_dev=http://localhost:3052/v1/api/product/
 
-### Publish Product
+### UnPublish Product
 POST {{url_dev}}/unpublish/[PRODUCT_ID]
 Content-Type: application/json
 x-api-key: [API_KEY]
@@ -118,7 +118,7 @@ authorization: [ACCESS_TOKEN]
 ``` 
 @url_dev=http://localhost:3052/v1/api/product/
 
-### Publish Product
+### get all Draft Products
 GET {{url_dev}}/drafts/all
 Content-Type: application/json
 x-api-key: [API_KEY]
@@ -131,7 +131,7 @@ authorization: [ACCESS_TOKEN]
 ``` 
 @url_dev=http://localhost:3052/v1/api/product/
 
-### Publish Product
+### get all Published Products
 GET {{url_dev}}/unpublish/published/all
 Content-Type: application/json
 x-api-key: [API_KEY]
