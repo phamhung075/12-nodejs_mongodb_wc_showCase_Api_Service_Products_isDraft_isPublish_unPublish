@@ -113,4 +113,4 @@ x-client-id: [SHOP_ID]
 authorization: [ACCESS_TOKEN]
 
 ```
-For more detailed examples, refer to see [README.png](./help12.png).
+For more detailed examples, refer to see [README.png](./help.png).
