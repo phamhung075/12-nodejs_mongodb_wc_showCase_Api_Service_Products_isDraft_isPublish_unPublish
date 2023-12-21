@@ -113,4 +113,32 @@ x-client-id: [SHOP_ID]
 authorization: [ACCESS_TOKEN]
 
 ```
+
+- **get all Draft Products** examples
+``` 
+@url_dev=http://localhost:3052/v1/api/product/
+
+### Publish Product
+GET {{url_dev}}/drafts/all
+Content-Type: application/json
+x-api-key: [API_KEY]
+x-client-id: [SHOP_ID]
+authorization: [ACCESS_TOKEN]
+
+```
+
+- **get all Published Products** examples
+``` 
+@url_dev=http://localhost:3052/v1/api/product/
+
+### Publish Product
+GET {{url_dev}}/unpublish/published/all
+Content-Type: application/json
+x-api-key: [API_KEY]
+x-client-id: [SHOP_ID]
+authorization: [ACCESS_TOKEN]
+
+```
+
+
 For more detailed examples, refer to see [README.png](./help.png).
